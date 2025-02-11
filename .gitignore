@@ -1,0 +1,13 @@
+# Ignore build, install, and log directories (if accidentally created in src/)
+build/
+install/
+log/
+
+# Ignore temporary or hidden files
+*.pyc
+__pycache__/
+.DS_Store
+*.swp
+.vscode/
+.venv/
+.env
